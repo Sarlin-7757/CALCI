@@ -39,8 +39,19 @@ body{
     padding: 20px 35px;
 } 
 
-/* .screen{
-
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255,255,255,0.75);
+    border: ipx solid rgba(255,255,255,0.01);
+    border-radius: 16px;
+    box-shadow: o  4px 30px rgba(35,35,35,0.1);
+    color: #232323;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
 }
 
 
